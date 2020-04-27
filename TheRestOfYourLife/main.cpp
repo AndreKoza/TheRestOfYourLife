@@ -382,7 +382,7 @@ int main()
 {
     auto start = std::chrono::system_clock::now();
     std::ofstream output;
-    output.open("picture.ppm");
+    output.open("../picture.ppm");
 
     const int image_width = 600;
     const int image_height = 600;
