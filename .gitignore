@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+*.ppm
+*.ipch
+*.db
+*.suo
+*.iobj
+*.ipdb
+*.log
+*.pdb
+*.tlog
+*.opendb
+
+x64/Release/TheNextWeek.vcxproj.FileListAbsolute.txt
