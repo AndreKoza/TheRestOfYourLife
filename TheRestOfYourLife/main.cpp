@@ -14,6 +14,8 @@
 #include "box.h"
 #include "constant_medium.h"
 
+#include "pi.h"
+
 
 vec3 ray_color(const ray& r, const vec3& background, const hittable &world, int depth)
 {
@@ -380,6 +382,10 @@ hittable_list final_scene()
 
 int main()
 {
+    pi_main();
+
+    return 1;
+
     auto start = std::chrono::system_clock::now();
     std::ofstream output;
     output.open("../picture.ppm");
